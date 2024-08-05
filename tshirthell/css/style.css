@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none !important;
+}
+
+#topBar i{
+    color: #000;
+}
+
+#header .headerHead{
+    font-size: 24px;
+    color: #fff;
+}
+
+#footer a{
+    color: #000;
+}
+
+#bottomFooter a{
+    color: #fff;
+}
+
+#footer i, #aboutUsContent i{
+    font-size: 24px;
+    margin-right: 7px;
+}
+
+.carousel-item img{
+    border-radius: 15px;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    background-color: #ff0000;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+}
+
+
+
+#leftContent {
+    background-image: url('../img/t-shirt-hell-logo-red-308x113.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 80%;
+    transform: rotate(25deg);
+}
+
+#mainContent .col-md-12{
+    transform: rotate(-25deg);
+}
+
+.carousel-item h5, .carousel-item p{
+    color: brown;
+    font-size: x-large;
+    border: 1px solid;
+    background-color: #fff;
+    opacity:0.7;
+    border-radius: 20px;
+}
+
+
+ #campaigns h4{
+    color: #fff;
+} 
+
+#campaigns .card11{
+    background-image: url(../img/london-is-blue-600x834.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+
+} 
+
+#campaigns .card12{
+    background-image: url(../img/efsane-pl-600x834.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+
+} 
+
+#campaigns .card13{
+    background-image: url(../img/foxes-600x834.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+
+} 
+
+
+#campaigns .card14{
+    background-image: url(../img/wolves-600x834.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+
+} 
+
+
+
+
+#campaigns .container .col-md-3{
+    transition: transform 0.4s ease-in-out;
+}
+
+#campaigns .container .col-md-3:hover{
+    transform: scale(1.07);
+}
+
+#aboutUsContent h3{
+    text-align: center !important;
+    margin: 0 auto;
+}
+
+#aboutUsContent img{
+    border-radius: 50%;
+}
+
+#aboutUsContent i{
+    color: #000;
+}
+
+#aboutUsContent ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#aboutUsContent li {
+    list-style: none; 
+}
+
+#contactUsContent i{
+    font-size: 24px;
+}
+
+.line-text{
+    display: flex;
+    align-items: center;
+}
+
+ .line-text .line{
+    flex-grow: 1;
+    height: 1px;
+    background-color: lightgray;
+}
+
+.line-text .text
+{
+    margin: 0 10px;
+    white-space: nowrap;
+}
+
+.btnSignIn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.btnSignIn i{
+    position: absolute;
+    left: 20px;
+}
+
+.btnSignIn .textSignIn{
+    flex: 1;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .container{
+        overflow-x: hidden;
+    }
+
+    #campaigns .container .col-md-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+ }
+    #campaigns .card{
+        background-size:cover;
+       
+    }
+
+
+    #campaigns .col-md-3 h4{
+        align-items: end;
+    }
+
+    #bottomFooter .col-md-6{
+  text-align: center !important;
+}
+
+
+#topBar .col-md-4{
+   
+    text-align: center !important;
+}
+
+#leftContent {
+    text-align: center !important;
+    background-size:contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    transform: none;
+
+}
+
+#mainContent .col-md-12{
+    transform: none;
+}
+
+.mobilMargin{
+    margin-bottom: 40px;
+}
+
+#campaigns .card13 , #campaigns .card11, #campaigns .card12, #campaigns .card14{
+    width: 300px;
+}
+
+#myCart .col-md-3{
+    display: none !important;
+}
+
+#myCart input{
+    width: 100%;
+    font-size: 8px;
+}
+
+
+
+#myCart button{
+    width: 100%;
+    font-size: 16px;
+}
+
+#signUpContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #signUpContent form {
+    width: 100%;
+    max-width: 90%; 
+    margin: 0 auto;
+    
+  }
+
+  #signUpContent .form-group {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  #signUpContent .form-control {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #signUpContent .btn {
+    display: block;
+    width: 100%;
+    max-width: 100%; /* İsteğe bağlı olarak butonun genişliğini sınırlayabilirsiniz */
+    margin: 10px auto;
+  }
+
+  #signUpContent .text-center {
+    text-align: center;
+  }
+
+  #signUpContent .line-text {
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  #signUpContent img {
+    width: 100%;
+    max-width: 400px; /* İsteğe bağlı, resmin genişliğini sınırlayabilirsiniz */
+    margin: 20px auto;
+  }
+  .signInDirect{
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+
+  #signInContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  #signInContent .container {
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  #signInContent .form-group {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  #signInContent .form-control {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #signInContent .btn {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 10px auto;
+  }
+
+  #signInContent .line-text {
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  #signInContent .signInWith button {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 10px auto;
+  }
+
+  #signInContent .sign-up {
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  #signInContent img {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+
+}
